@@ -6,4 +6,4 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - kubernetes/Pod_Controllors.md
+  - about.md
