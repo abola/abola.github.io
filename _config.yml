@@ -1,5 +1,4 @@
 theme: jekyll-theme-cayman
-markdown: kramdown
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -7,3 +6,32 @@ relative_links:
   collections: true
 include:
   - about.md
+title: Abola
+email: ""
+description: >- # this means to ignore newlines until "baseurl:"
+  My Personal Blog
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+repository: "abola/abola.github.io"
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# A list of the pages to display in the navigation bar
+header_pages:
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - update_boostrap.sh
+
+show_excerpts: true
+markdown: kramdown
